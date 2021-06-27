@@ -1,5 +1,5 @@
 /*
-* Whenever I try to execute to SQL console it always in wrap mode on. So I added "wrap off" to fix the problem
+* Whenever I try to execute SQL in SQL console it always is in wrap mode on. So I added "wrap off" to fix the problem.
 */
 SET wrap off;
 
