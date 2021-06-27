@@ -1,7 +1,6 @@
 /*
-* Whenever I try to execute to SQL console it always in wrap mode on. So I added "wrap off" and "line size" to fix the problem
+* Whenever I try to execute to SQL console it always in wrap mode on. So I added "wrap off" to fix the problem
 */
-SET linesize 50;
 SET wrap off;
 
 /*
@@ -18,8 +17,8 @@ DROP TABLE customers;
 */
 CREATE TABLE customers(
 	id             integer,
-	name           varchar(255),
-	occupation     varchar(100)
+	name           varchar(30),
+	occupation     varchar(20)
 );
 
 /*
